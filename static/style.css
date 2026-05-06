@@ -1,0 +1,58 @@
+.output{
+    white-space: pre-line;
+    font-style: italic;
+    font-size:x-large;
+}
+
+.niche_selector{
+    height: 100vh;
+    background-color:darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* center this parent div */
+}
+
+.card{
+
+    background-color:lightslategray;
+    padding : 20px;
+    border-radius: 30px;
+    width:1000px;
+}
+
+form{
+    border-radius: 25px;
+    box-shadow: 5px  20px 100px lightcyan;
+    font-size: large;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 25px ;
+}
+
+
+.box{
+    border: 2px solid gray;
+    border-radius: 18px;
+    padding: 10px;
+    box-shadow: 4px  10px 50px rgb(209, 237, 237) ;
+    transition: box-shadow 0.3s ease-in;
+
+}
+
+input{
+    border-radius: 999px;
+}
+
+.box:hover{
+    box-shadow: 4px 8px 30px cornflowerblue;
+}
+
+/* input:hover{
+    box-shadow: 0px 3px 20px  cornflowerblue;
+} */
+#sumbitBtn{
+    border-radius: 50px;
+    box-shadow: 4px 10px 50px lemonchiffon;
+}
