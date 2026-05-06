@@ -27,6 +27,6 @@ def displaying():
         
         return render_template("display.html", output = response.text)
     
-    except Exception as e :
-        return render_template("error.html", e=e)
+    except Exception:
+        return render_template("error.html")
     
