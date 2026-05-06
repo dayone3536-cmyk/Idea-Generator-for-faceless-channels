@@ -21,7 +21,7 @@ def displaying():
 
         client = genai.Client(api_key = API_KEY)
 
-        response = client.models.generate_content(model = "gemini-2.5-flash-preview",   
+        response = client.models.generate_content(model = "gemini-1.5-flash",   
                                                 contents= f"Generate 10 viral video ideas for {niche}. Output format: Topic | Hook \n Topic | hook \n Topic | hook \n  Rules: \n  10 words max per line total,  Topic is the video concept, Hook is the first attention-grabbing sentence, Separate Topic and Hook with ' | '  One idea per line No numbering, no explanations"
                                                 )
         
